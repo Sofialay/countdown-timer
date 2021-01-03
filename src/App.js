@@ -1,4 +1,4 @@
-import React, {Fragment, useEffect, useState} from 'react'
+import React, { useEffect, useState} from 'react'
 import './App.scss';
 import CardContainer from './components/CardContainer/CardContainer';
 import mountain from '././images/pattern-hills.svg';
@@ -17,13 +17,11 @@ function App() {
   }, [])
 
   return (
-    <React.Fragment>
       <section className="contdown-page">
         <h3 className="title">Cumpleañito de {username}</h3> 
         <CardContainer/>
         <img className="mountain-bg" src={mountain} alt="mountain illustration"/>
       </section>
-    </React.Fragment>
   );
 }
 

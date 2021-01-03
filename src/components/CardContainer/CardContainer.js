@@ -42,10 +42,10 @@ const CardContainer = () => {
 
     return (
         <section className="card-container">
-               <Card contdown={day} title="Days"/>
-               <Card contdown={hour} title="Hours"/>
-               <Card contdown={minute} title="Minutes"/>
-               <Card contdown={second} title="Seconds"/>
+               <Card contdown={day} title="Días"/>
+               <Card contdown={hour} title="Horas"/>
+               <Card contdown={minute} title="Minutos"/>
+               <Card contdown={second} title="Segundos"/>
         </section>
     )
 }
