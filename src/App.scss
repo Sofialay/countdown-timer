@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+
+$grayishBlue: hsl(237, 18%, 59%);
+$softRed: hsl(345, 95%, 68%);
+
+$white: hsl(0, 0%, 100%);
+$darkDesaturatedBlue: hsl(236, 21%, 26%);
+$veryDarkBlue: hsl(235, 16%, 14%);
+$veryDarkBlackBlue: hsl(234, 17%, 12%);
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.contdown-page{
+  background-image: url(./images/bg-stars.svg);
+  font-family: 'Red Hat Text', sans-serif;
+  background-color: $veryDarkBlackBlue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  color: $white;
+  text-transform: uppercase;
+  text-align: center;
+  
+  .title {
+    font-size: 14px;
+    letter-spacing: 4px;
+  }
+
+  .mountain-bg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: calc(100% + 1px);
+    height: 150px;
+  }
+}
