@@ -9,7 +9,7 @@ const CardContainer = () => {
     const [day, setDays] = useState()
 
     function CountdownTimer() {
-        let theEvent = new Date("Jun 09 2021 00:00:00");
+        let theEvent = new Date("Mar 07 2021 00:00:00");
         let _second = 1000;
         let _minute = _second * 60;
         let _hour = _minute * 60;
